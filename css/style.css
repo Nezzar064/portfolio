@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    font-size: 18px;
+    font-family: arial, serif;
+}
+#header{
+    background: #1a1a1a;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 36px;
+}
+.container-row{
+    padding: 100px 15px;
+}
+#home{
+    background: #d9d9d9;
+}
+#about{
+    background: #b3b3b3;
+}
+#education{
+    background: #d9d9d9;
+}
+#projects{
+    background: #b3b3b3;
+}
+#jobs{
+    background: #d9d9d9;
+}
+#contact{
+    background: #b3b3b3;
+}
+.main-menu{
+
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu ul li{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 2px solid transparent;
+    transition:all 0.3s ease-in-out;
+}
+.main-menu ul li:hover a,
+.main-menu ul li a.active{
+    border-bottom: 2px solid white;
+}
+
