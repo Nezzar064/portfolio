@@ -2,10 +2,8 @@
     box-sizing: border-box;
 }
 html,body{
-    margin: 0px;
+    margin: 0;
     font-size: 18px;
-    max-width: 100%
-;
     font-family: arial, serif;
 }
 #header{
@@ -22,22 +20,8 @@ html,body{
     align-items: center;
     justify-content: space-between;
 }
-main {
-    max-width: 700px;
-    margin: 36px auto;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding: 12px;
-}
-
-@media screen and (max-width: 700px) {
-    main {
-        font-size: 1.4rem;
-        line-height: 2.4rem;
-    }
-}
 .container{
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 .logo{
@@ -69,12 +53,6 @@ h2{
 }
 #contact{
     background: #b3b3b3;
-}
-@media only screen and (min-width: 700px) {
-    section.main-menu ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }
 .main-menu{
 
