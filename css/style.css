@@ -21,7 +21,7 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .logo{
@@ -80,4 +80,5 @@ h2{
 .main-menu ul li a.active{
     border-bottom: 2px solid white;
 }
+
 
