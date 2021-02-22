@@ -29,8 +29,8 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    max-width: 1050px;
-    width: inherit;
+
+    width: 100%;
     margin: 0 auto;
 }
 .logo{
@@ -43,7 +43,7 @@ h2{
     font-size: 36px;
 }
 .container-row{
-    width: inherit;
+    width: 100%;
     padding: 100px 15px;
 }
 #home{
