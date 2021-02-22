@@ -29,7 +29,6 @@ html,body{
     justify-content: space-between;
 }
 .container{
-
     width: 100%;
     margin: 0 auto;
 }
@@ -43,7 +42,6 @@ h2{
     font-size: 36px;
 }
 .container-row{
-    width: 100%;
     padding: 100px 15px;
 }
 #home{
