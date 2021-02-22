@@ -6,6 +6,9 @@ html,body{
     font-size: 18px;
     font-family: arial, serif;
 }
+body {
+    min-width:1050px;
+}
 #header{
     background: #1a1a1a;
     padding: 15px;
