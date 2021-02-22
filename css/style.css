@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html,body{
-    margin: auto;
+    margin: 0;
     width: 100%;
     font-size: 18px;
     font-family: arial, serif;
