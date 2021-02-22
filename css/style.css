@@ -22,7 +22,7 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    width: 100%;
+    width: 33%;
     margin: 0 auto;
 }
 .logo{
@@ -35,7 +35,7 @@ h2{
     font-size: 36px;
 }
 .container-row{
-    padding: 100px 15px;
+    padding: 150px 15px;
 }
 #home{
     background: #d9d9d9;
