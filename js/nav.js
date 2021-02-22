@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$('.main-menu ul li a').removeClass('active');
 		$(this).addClass('active');
 		thisAttrHref = $(this).attr('href');
-		thisAttrHrefOffset = $(thisAttrHref).offset().top + 50;
+		thisAttrHrefOffset = $(thisAttrHref).offset().top;
 		$('html,body').animate({scrollTop:thisAttrHrefOffset});
 		event.preventDefault();
 	});
