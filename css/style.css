@@ -21,8 +21,8 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    max-width: 80%;
-    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .logo{
     font-weight: 700;
