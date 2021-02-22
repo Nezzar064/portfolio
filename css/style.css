@@ -4,6 +4,7 @@
 html,body{
     margin: 0px;
     font-size: 18px;
+    max-width: 100%;
     font-family: arial, serif;
 }
 #header{
