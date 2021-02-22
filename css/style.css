@@ -3,6 +3,7 @@
 }
 html,body{
     margin: 0;
+    width: 100%;
     font-size: 18px;
     font-family: arial, serif;
 }
@@ -29,6 +30,7 @@ html,body{
 }
 .container{
     max-width: 1050px;
+    width: inherit;
     margin: 0 auto;
 }
 .logo{
@@ -41,6 +43,7 @@ h2{
     font-size: 36px;
 }
 .container-row{
+    width: inherit;
     padding: 100px 15px;
 }
 #home{
