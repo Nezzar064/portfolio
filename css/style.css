@@ -2,17 +2,10 @@
     box-sizing: border-box;
 }
 html,body{
-    margin: 0;
+    margin: auto;
     width: 100%;
     font-size: 18px;
     font-family: arial, serif;
-}
-.site-container{
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    height: 100vh;
-    top: 0;
 }
 #header{
     background: #1a1a1a;
@@ -29,7 +22,7 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    width: 100%;
+    width: 1050px;
     margin: 0 auto;
 }
 .logo{
