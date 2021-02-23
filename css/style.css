@@ -20,18 +20,12 @@ html,body{
     align-items: center;
     justify-content: space-between;
 }
-.container{
-    max-width: 700px;
-    margin: 0 auto;
-}
+
 .logo{
     font-weight: 700;
     font-size: 34px;
     color: white;
     text-decoration: none;
-}
-h2{
-    font-size: 36px;
 }
 .container-row{
     padding: 150px 15px;
