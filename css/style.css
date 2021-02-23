@@ -27,6 +27,7 @@ html,body{
 }
 .logo{
     font-weight: 700;
+    padding: 10px;
     font-size: 34px;
     color: white;
     text-decoration: none;
@@ -35,7 +36,13 @@ h2{
     font-size: 36px;
 }
 .container-row{
-    padding: 200px 15px;
+    padding: 150px;
+    align-content: center;
+}
+.education-table {
+    border: 3px solid black;
+    width: 100%;
+    padding: 30px;
 }
 #home{
     background: #d9d9d9;
@@ -54,6 +61,11 @@ h2{
 }
 #contact{
     background: #b3b3b3;
+}
+#comment{
+    size: 50px;
+    width: 500px;
+
 }
 .main-menu{
 

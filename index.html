@@ -35,16 +35,57 @@
     </section>
     <section class="container-row" id ="about">
         <div class="container">
-            <h2>about me</h2>
-            <p>blaablablablablabla
+            <h2>About me</h2>
+            <p>23 year old Danish nerd studying 2nd. semester of Computer Science at KEA,
+                residing in Copenhagen.
+                <br>
+                <br>
+                I really enjoy programming and love taking things we get from classes to
+                the next level, which can be seen on my 1st semester hobby project.
+                <br>
+                I mostly enjoy doing back-end work, as front-end isn't the same level of
+                enjoyment and satisfaction for me. Nothing beats finally getting your logic to work!
+                <br>
+                So far, I have experience in java and incorporating mySQL and Hibernate in Java, HTML, CSS and some javascript.
+                As a side note, I know my way around in UNIX as well.
+                <br>
+                <br>
+                In my spare time I develop and research programming as a hobby, play a lot of different video games, take my road bike
+                for some spins and go to the gym up to 5 days a week. I like to lift heavy stuff.
+
             </p>
         </div>
     </section>
     <section class="container-row" id ="education">
         <div class="container">
-            <h2>education</h2>
-            <p>blaablablablablablab
-            </p>
+            <h2>Education</h2>
+            <table class="education-table">
+                <tr>
+                    <th>Education</th>
+                    <th>School</th>
+                    <th>Graduation</th>
+                </tr>
+                <tr>
+                    <td>0-9th grade</td>
+                    <td>Valhoej Skole</td>
+                    <td>??</td>
+                </tr>
+                <tr>
+                    <td>10th grade</td>
+                    <td>Milestedet</td>
+                    <td>??</td>
+                </tr>
+                <tr>
+                    <td>HF</td>
+                    <td>Frederiksberg HF-Kursus</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>KEA</td>
+                    <td>expected 2023/2024</td>
+                </tr>
+            </table>
         </div>
     </section>
     <section class="container-row" id ="projects">
@@ -61,14 +102,27 @@
             </p>
         </div>
     </section>
+</main>
+<footer>
     <section class="container-row" id ="contact">
         <div class="container">
-            <h2>contact me</h2>
-            <p>blaablablablablabla
+            <h2>Contact me</h2>
+            <p>I prefer to be contacted via. email on: mathi_n@live.dk
+                Alternatively, use the form to send me an email!
             </p>
+            <form action="mailto:mathi_n@live.dk" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input id = "comment" type="text" name="comment"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
         </div>
     </section>
-</main>
+</footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/nav.js"></script>
 </body>
