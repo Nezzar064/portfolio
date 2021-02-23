@@ -3,6 +3,7 @@
 }
 html,body{
     margin: 0;
+    width: 100%;
     font-size: 18px;
     font-family: arial, serif;
 }
@@ -21,11 +22,12 @@ html,body{
     justify-content: space-between;
 }
 .container{
-    max-width: 700px;
+    width: 100%;
     margin: 0 auto;
 }
 .logo{
     font-weight: 700;
+    padding: 10px;
     font-size: 34px;
     color: white;
     text-decoration: none;
@@ -34,7 +36,8 @@ h2{
     font-size: 36px;
 }
 .container-row{
-    padding: 100px 15px;
+    padding: 150px;
+    align-content: center;
 }
 .education-table {
     border: 3px solid black;
@@ -58,6 +61,11 @@ h2{
 }
 #contact{
     background: #b3b3b3;
+}
+#comment{
+    size: 50px;
+    width: 500px;
+
 }
 .main-menu{
 
@@ -85,3 +93,5 @@ h2{
 .main-menu ul li a.active{
     border-bottom: 2px solid white;
 }
+
+
